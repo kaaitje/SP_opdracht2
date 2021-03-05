@@ -1,0 +1,22 @@
+1. Maak verbinding met de SQL en MongoDB
+2. Drop bestaande tabellen
+3. Maak de benodigde nieuwe tabellen
+4. Maak de benodigde relatie's
+5. Upload de data
+
+-----------------------------------------------------
+tabellen: products, profiles, bought products, viewed products, sessions
+
+Uitleg: In de tabel products staat de informatie over de producten,
+        In de tabel profiles staat welke producten ze bekeken en gekocht hebben en de verschillende sessies
+        In de tabel bought products staat het profile ID en de product ID's
+        In de tabel viewed products staat het profile ID en de product ID's
+        In de tabel sessions staat de duratie en de begin tijd.
+
+        Met deze informatie zou het moeten lukken om een collaberative filter te maken aan de hand van welke producten
+        er gekocht zijn door een klant en die te recommenden aan een andere.
+        Deze informatie zou ook genoeg moeten zijn vergelijkbare producten te recommenden en dus een contentfilter
+        toe te passen.
+        In de tabel sessions heb ik er voor gekozen om de begin tijd van een sessie mee te nemen misschien dat ik op
+        die manier seizoen gebasseerde recommendations kan doen. Maar dan moet ik ook een tabel met seizoens gebonde
+        producten maken en ik weet nog niet echt hoe ik me dat voor moet stellen.
