@@ -1,18 +1,17 @@
 Psuedocode (versimpeld)
-1. Maak verbinding met de SQL, MongoDB en python
-2. Drop bestaande tabellen
-3. Maak de benodigde nieuwe tabellen
-4. Maak de benodigde relatie's
-5. Upload de data
+1. Maak verbinding met de SQL, MongoDB en python door jouw eige inlog gegevens in te vullen
+2. Run Create_tables.py
+3. Run Create_csv.py
+4. Run Upload_csv.py
 
 -----------------------------------------------------
-tabellen: products, profiles, bought products, viewed products, sessions
+tabellen: products, profiles, sessions, bought products, viewed products
 
 Uitleg: In de tabel products staat de informatie over de producten,
-        In de tabel profiles staat het profile_ID en de recommendation segment.
+        In de tabel profiles staat het profile_ID en de Buids
         In de tabel bought products staat het profile ID en de product ID's
         In de tabel viewed products staat het profile ID en de product ID's
-        In de tabel sessions staat de ID van de sessie de begin tijd en of er iets gekocht is tijdens de sessie.
+        In de tabel sessions staat de ID van de sessie, de buid, de begin tijd en of er iets gekocht is tijdens de sessie.
 
         Met deze informatie zou het moeten lukken om een collaberative filter te maken aan de hand van welke producten
         er gekocht zijn door een klant en die te recommenden aan een andere.
