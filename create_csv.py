@@ -29,7 +29,7 @@ def profiles_csv():
                     writer.writerow((str(entry["buids"][0]),
                                      str(entry["_id"])))
                 count += 1
-        return 'completed' + str(count) + " buids retrieved"
+        return 'completed ' + str(count) + " buids retrieved"
 
 
 def products_csv():
@@ -56,7 +56,7 @@ def products_csv():
             except:
                 continue
 
-        return 'completed' + str(count) + " products retrieved"
+        return 'completed ' + str(count) + " products retrieved"
 
 
 def sessions_csv():
