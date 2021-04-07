@@ -1,3 +1,5 @@
+# Tabel sessions en profiles gelinkts via buid maar niet aangepast in het ontwerp
+
 Gebruik: 
 1. Maak verbinding met de SQL, MongoDB en python door jouw eige inlog gegevens in te vullen
 2. Run Create_tables.py
