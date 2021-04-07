@@ -1,4 +1,4 @@
-Psuedocode (versimpeld)
+Gebruik: 
 1. Maak verbinding met de SQL, MongoDB en python door jouw eige inlog gegevens in te vullen
 2. Run Create_tables.py
 3. Run Create_csv.py
